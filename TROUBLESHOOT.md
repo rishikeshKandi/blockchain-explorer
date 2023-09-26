@@ -1150,4 +1150,7 @@ Example: ``` $curl http://localhost:8080/api/channels ```
 Example response: ``` {"status":200,"channels":["dockerchannel","mychannel"] ```
 
 
+#### Problem Description: Proxy error: Could not proxy request /auth/networklist from localhost:3000 to http://localhost:8080/.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED)
 
+##### Background Information: ECONNREFUSED (Connection refused): No connection could be made because the target machine actively refused it. This usually results from trying to connect to a service that is inactive on the foreign host.
